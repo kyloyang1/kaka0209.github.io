@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightpink;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.w {
+    width: 1200px;
+    margin: auto;
+}
+.head {
+    height: 42px;
+    margin: 30px auto;
+
+}
+.logo{
+    float: left;
+    width: 198px;
+    height: 42px;
+}
+.nav{
+    float: left;
+    margin-left: 60px;
+}
+.nav ul li{
+    float: left;
+    margin: 0 15px;
+}
+.nav ul li a{
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    color: #050505;
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid ;
+    color: #00a4ff;
+}
+.search{
+    float: left;
+    height: 42px;
+    width: 412px;
+    margin: 0 65px 0 50px;
+}
+.search input{
+    float: left;
+    height: 40px;
+    width: 345px;
+    border: 1px solid #00a4ff;
+    border-right: none;
+    font-size: 14px;
+    color: #bfbfbf;
+    padding-left: 15px;
+}
+.search button{
+    float: left;
+    height: 42px;
+    width: 50px;
+    background-image: url("images/fa-search.png");
+    border: 0;
+}
+
+.user .touxiang{
+    float: left;
+    height: 42px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("images/20130502185029_EkKYh拷贝.png");
+}
+.user .nicheng {
+    float: left;
+    height: 42px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 42px;
+}
