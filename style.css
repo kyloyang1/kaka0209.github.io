@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: lightpink;
-}
+
 li{
     list-style: none;
 }
@@ -74,7 +72,7 @@ a{
     width: 50px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("images/20130502185029_EkKYh拷贝.png");
+    background-image: url("images/touxiang.png");
 }
 .user .nicheng {
     float: left;
@@ -82,4 +80,43 @@ a{
     font-size: 14px;
     color: #666666;
     line-height: 42px;
+}
+.zhumokuai{
+    width: 150px;
+    height: 180px;
+    position: fixed;
+    top: 30px;
+    right: 5px;
+}
+.zhumokuai img {
+    width: 150px;
+    height: 150px;
+}
+.zhumokuai p{
+    text-align: center;
+    color: #666666;
+    font-size: 16px;
+}
+.egao a {
+    display: block;
+    color: #00a4ff;
+    font-size: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-shadow:  5px 5px 5px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.egao {
+
+    width: 1500px;
+    height: 50px;
+    margin: 200px auto;
+
+}
+body{
+
+    /*background-image: url("images/IMG_20220709_171533.jpg");*/
+    /*background-position: center top;*/
+    /*background-repeat: no-repeat;*/
+    background-color: lightpink;
 }
